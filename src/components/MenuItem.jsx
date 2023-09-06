@@ -2,7 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 
 export const MenuItem = ({title, address, Icon}) => {
-    console.log(title, address)
   return (
     <div>
         <Link href={address} className='mx-4 lg:mx-6 hover:text-amber-600 '>
